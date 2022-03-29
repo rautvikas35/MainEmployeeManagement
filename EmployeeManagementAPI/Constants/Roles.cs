@@ -10,6 +10,7 @@ namespace EmployeeManagementAPI.Constants
         public const string User = "User";
         public const string Approver = "Approver";
         public const string Admin = "Admin";
+        public const string Manager = "Manager";
 
     }
 }
