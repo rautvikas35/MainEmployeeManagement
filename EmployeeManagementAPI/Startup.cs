@@ -35,7 +35,6 @@ namespace EmployeeManagementAPI
             services.AddAuthentication(au =>
             {
                 au.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                au.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
             }).AddJwtBearer(jwt => { jwt.RequireHttpsMetadata = false;
                 jwt.SaveToken = true;jwt.TokenValidationParameters =
                 new Microsoft.IdentityModel.Tokens.TokenValidationParameters
